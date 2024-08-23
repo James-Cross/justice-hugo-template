@@ -1,7 +1,8 @@
 ---
-title: Services
+title: Practice Areas
 call_to_action: Contact
 large_header: false
+type: practice-areas
 menu:
   main:
     weight: 3

@@ -1,7 +1,9 @@
 name: Brandon Meo
 description: 
   Some bullshit about how great brandon is
-image: 
+image: /uploads/background.jpg
+order:
+  weight: 5
 credentials: BCL
 phone_extension: "02"
 is_staff_member: true

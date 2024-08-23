@@ -1,8 +1,8 @@
 ---
-title: Practice Areas
+title: Our Team
 call_to_action: Contact
 large_header: false
-type: practice-areas
+type: our-team
 menu:
   main:
     weight: 2
