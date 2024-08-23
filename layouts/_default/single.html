@@ -1,5 +1,19 @@
 {{ define "main" }}
 	<article class="content">
 		<div>{{ .Content }}</div>
+    <button class="scroll-up-button">
+      <i class="arrow-up"></i>
+    </button>
 	</article>
+
+  <script>
+    const btn = document.querySelector(".scroll-up-button");
+
+    btn.addEventListener("click", () => {
+      document.documentElement.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      })
+    });
+  </script>
 {{ end }}

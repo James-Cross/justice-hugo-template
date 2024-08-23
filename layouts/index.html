@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div>{{ .Content }}</div>
-
+<!-- 
   <div class="testimonials">
     {{ range .Params.testimonials }}
       <blockquote class="testimonial">
@@ -8,6 +8,36 @@
         <p class="testimonial-author">{{ .name }}</p>
       </blockquote>
     {{ end }}
-  </div>
+  </div> -->
 
-{{ end }}
+    
+    {{ if .Site.Data.authors }}
+		<h3>Meet the members of our capable team:</h3>
+    
+	  <ul class="staff-list">
+      {{ range .Site.Data.authors }}
+      {{ if .is_staff_member }}
+      <li class="staff">
+        <div class="staff-details">
+          <div class="staff-image">
+            <img src="{{ .image }}" alt="Staff photo for {{ .name }}" width="200" height="200">
+          </div>
+          <ul class="staff-info">
+            <li>{{ .name }}</li>
+            <li><small>{{ .credentials }}</small></li>
+            <li><a href="tel:{{ $.Site.Data.company.phone }}">{{ $.Site.Data.company.phone }}</a> ext {{ .phone_extension }}</li>
+          </ul>
+        </div>
+        
+        <div class="staff-bio">
+          <p>{{ .description }}</p>
+        </div>
+      </li>
+      {{ end }}
+			{{ end }}
+		</ul>
+    {{ end }}
+
+    {{ end }}
+    
+    

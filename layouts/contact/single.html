@@ -45,6 +45,8 @@
 		</div>
 	</article>
 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9768.81515828724!2d-7.1027945!3d52.2578443!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842c69764c262f1%3A0xa38ca9e210fb18df!2sKenny%20Stephenson%20Chapman%20Solicitors%20and%20Notary!5e0!3m2!1sen!2suk!4v1724434912101!5m2!1sen!2suk" width="960" height="550" style="border:0; margin-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 	{{ if (and (isset .Site.Params "google_maps_javascript_api_key") (eq .Params.call_to_action "Map")) }}
 		<script>
 			window.mapData = {{ .Params.map | jsonify }};
