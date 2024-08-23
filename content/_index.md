@@ -3,24 +3,23 @@ title: Home
 call_to_action: Contact
 large_header: true
 menu:
+  main:
+    weight: 1
   footer:
     weight: 1
 testimonials:
-  - message: We use Justice Law in all our endeavours. They offer an unparalleled service when it comes to running a business.
-    image: "https://placekitten.com/g/60/60?a=.png"
-    name: Joice Carmold
-  - message: Justice Law are the best of the best. Being local, they care about people and have strong ties to the community.
-    image: "https://www.fillmurray.com/60/60?a=.png"
-    name: Peter Rottenburg
-  - message: Justice Law were everything we could have hoped for when buying our first home. Highly recommended to all.
-    image: "https://placebear.com/60/60?a=.png"
-    name: D. and G. Gibbleston
-_options:
-  image:
-    width: 60
-    height: 60
+  - message: Some space for a brief testimonial or comment on the quality service that a person has received.
+    name: John Smith
+  - message: Some space for a brief testimonial or comment on the quality service that a person has received.
+    name: John Smith
+  - message: Some space for a brief testimonial or comment on the quality service that a person has received.
+    name: John Smith
+# _options:
+#   image:
+#     width: 60
+#     height: 60
 ---
 
-This is the *Justice* template from [CloudCannon](https://cloudcannon.com/). Justice is strong foundation for the web presence of a law firm or business. It's filled with fictitious example content to get you started.
+The firm traces its origins to the early 1800’s when Issac Thornton commenced practice in Waterford.  His firm was taken over by another Waterford Solicitor, W.E. Chapman in 1943.  The firm of Kenny & Stephenson began in 1890 in Carrick-on-Suir, Co. Tipperary and subsequently moved to Gladstone Street, Waterford in 1894.  
 
-Justice Law is professional representation. Practicing for over 50 years, our team have the knowledge and skills to get you results.
+In 1967 the firms of W.E. Chapman & Son and Kenny & Stephenson were amalgamated and in the early 1970’s moved to its present offices at Newtown, Waterford. 

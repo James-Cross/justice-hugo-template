@@ -6,20 +6,15 @@
 			<div class="column">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
-				<label>Phone Number</label>
+				<label>Telephone</label>
 				<p class="contact-info"><a href="tel:{{ $.Site.Data.company.phone }}">{{ $.Site.Data.company.phone }}</a></p>
+
+				<label>Fax</label>
+				<p class="contact-info"><a href="tel:{{ $.Site.Data.company.phone }}">{{ $.Site.Data.company.fax }}</a></p>
 
 				<label>Email Address</label>
 				<p class="contact-info"><a href="mailto:{{ $.Site.Data.company.contact_email_address }}">{{ $.Site.Data.company.contact_email_address }}</a></p>
 
-				<label>Postal Address</label>
-				<address class="contact-info">
-					{{ $postal_address_parts := split $.Site.Data.company.postal_address "," }}
-					{{ range $i, $part := $postal_address_parts }}
-						{{ if $i }}<br>{{ end }}
-						{{ $part }}
-					{{ end }}
-				</address>
 				<label>Address</label>
 				<address class="contact-info">
 					{{ $address_parts := split $.Site.Data.company.address "," }}

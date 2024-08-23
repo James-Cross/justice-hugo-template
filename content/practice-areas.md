@@ -1,11 +1,11 @@
 ---
-title: About
+title: Practice Areas
 call_to_action: Contact
 large_header: false
-type: about
+type: practice-areas
 menu:
   main:
-    weight: 1
+    weight: 2
   footer:
     weight: 2
 ---

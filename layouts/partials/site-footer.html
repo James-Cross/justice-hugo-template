@@ -35,7 +35,6 @@
 					<h2>{{ $.Site.Data.company.title }}</h2>
 				</li>
 				<li>{{ $.Site.Data.company.description }}</li>
-				<li><a href="/blog/index.xml">{{ partial "social-icon.html" (dict "context" . "name" "RSS") }} Subscribe with RSS</a></li>
 			</ul>
 		</div>
 	</div>
@@ -44,8 +43,6 @@
 		<p class="container">
 			&copy; {{ now.Format "2006" }} {{ $.Site.Data.company.title }} &bull;
 			<a href="/terms/">Terms</a>
-			&bull;
-			Template by <a href="https://cloudcannon.com/">CloudCannon</a>
 		</p>
 	</div>
 </footer>

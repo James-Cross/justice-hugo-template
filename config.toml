@@ -17,13 +17,13 @@ enableRobotsTXT = true
   posts = ":section/:year/:month/:day/:title/"
 
 [params]
-  backgroundImagePath = "/uploads/building.jpg"
+  backgroundImagePath = "/uploads/background1.jpg"
   description = "Hugo template with example content for a law firm."
   images = ["siteicon.png"]
   title = "Justice Template"
 
 [params._selectData]
-  call_to_actions = ["Contact", "Blog", "Map"]
+  call_to_actions = ["Contact", "Map"]
   social_icons = ["Facebook", "Instagram", "LinkedIn", "Pinterest", "Tumblr", "Twitter", "YouTube", "RSS"]
 
 [params._options.type]
