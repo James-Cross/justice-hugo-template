@@ -26,7 +26,7 @@
 			</div>
 
 			<div class="column">
-				<form netlify method="post" action="/contact-success/">
+				<form name="contact" netlify>
 					<label for="email_address">Email Address</label>
 					<input id="email_address"type="text" name="email">
 
@@ -39,7 +39,7 @@
 					<input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}">
 					<input type="text" name="_gotcha" style="display: none;">
 
-					<input type="submit" value="Send Message">
+					<button type="submit">Send</button>
 				</form>
 			</div>
 		</div>
