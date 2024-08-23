@@ -1,11 +1,14 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseURL = "/"
+languageCode = "en-gb"
+title: Kenny Stephenson Chapman
 summaryLength = 20
 disqusShortname = ""
 googleAnalytics = ""
 Paginate = 10
 PaginatePath = "/"
 enableRobotsTXT = true
+[blackfriday]
+   hrefTargetBlank = true
 
 [taxonomies]
   category = "categories"
