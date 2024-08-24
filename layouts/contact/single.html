@@ -4,6 +4,29 @@
 
 		<div class="columns">
 			<div class="column">
+				<form action="https://api.web3forms.com/submit" method="POST">
+          <!-- replace with correct link -->
+          <input type="hidden" name="redirect" value="https://ksc-waterford.netlify.app/thanks.html">
+          <input type="hidden" name="access_key" value="f8c74229-4b3b-4309-a877-d4f7ac42310b">
+					<label for="email_address">Email Address</label>
+					<input id="email_address"type="text" name="email">
+
+					<label for="name">Name</label>
+					<input id="name" type="text" name="name">
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message"></textarea>
+
+					<input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}">
+					<input type="text" name="_gotcha" style="display: none;">
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+					<input type="submit" value="Send Message">
+				</form>
+			</div>
+
+
+			<div class="column">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
 				<label>Phone Number</label>
@@ -29,27 +52,6 @@
 				</address>
 			</div>
 
-			<div class="column">
-				<form action="https://api.web3forms.com/submit" method="POST">
-          <!-- replace with correct link -->
-          <input type="hidden" name="redirect" value="https://ksc-waterford.netlify.app/thanks.html">
-          <input type="hidden" name="access_key" value="f8c74229-4b3b-4309-a877-d4f7ac42310b">
-					<label for="email_address">Email Address</label>
-					<input id="email_address"type="text" name="email">
-
-					<label for="name">Name</label>
-					<input id="name" type="text" name="name">
-
-					<label for="message">Message</label>
-					<textarea id="message" name="message"></textarea>
-
-					<input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}">
-					<input type="text" name="_gotcha" style="display: none;">
-          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
-					<input type="submit" value="Send Message">
-				</form>
-			</div>
 		</div>
 	</article>
 
