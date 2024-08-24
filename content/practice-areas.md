@@ -12,6 +12,44 @@ menu:
 
 Our specialised team has the skill and experience to provide a range of services. The utmost care is taken with all our work. The main streams of work we perform are as follows:
 
+### Conveyancing
+
+Conveyancing involves the legal process of transferring property ownership. Our meticulous attention to detail helps ensure a smooth property transfer process.
+
+![conveyancing image](/uploads/conveyancing.jpg)
+
+### Probate and Estate Administration
+
+When a loved one passes away, our probate services help guide you through the legal process of administering their estate. This involves gathering in their assets, distributing the assets, settling debts and handling any residual tax matters. Our compassionate approach during this challenging time ensures a smooth transition of assets and adherence to legal requirements.
+
+![probate image](/uploads/probate.jpg)
+
+### Family Law
+
+Family law encompasses matters such as divorce, custody, guardianship, access maintenance applications and domestic abuse.  Our family law expertise aims to provide compassionate guidance during emotionally challenging times and ensure that your family's best interests are prioritized.
+
+![family image](/uploads/family.jpg)
+
+### Personal Injury Matters
+
+In cases of personal injury, our team is dedicated to helping you seek compensation for injuries sustained due to accidents or negligence. We advocate for your rights and fight for fair compensation for medical expenses, pain, suffering and loss of earnings. 
+
+![personal injury image](/uploads/injury.jpg)
+
+### Commercial/Company and Business Law
+
+From business formation to contract drafting and negotiations, our business law expertise assists in safeguarding your commercial interests and ensuring your business transactions are legally sound.
+
+![commercial image](/uploads/commercial.jpg)
+
+### Criminal Law / Road Traffic Offences
+
+Sometimes we make mistakes. When this happens, we are here to help. If you've received a summons or have been charged with an offence, our team is on hand to assist you. We provide robust representation to safeguard your rights and navigate the complexities of criminal law and road traffic offence matters.
+
+![criminal image](/uploads/road-traffic.jpg)
+
+## Other practice areas
+
 ### Estate Planning - Wills
 
 Estate planning involves creating a plan for the distribution of your assets after your passing. A will is a vital document that ensures your wishes are carried out and your loved ones are provided for according to your desires. Estate planning minimizes potential conflicts and uncertainties for your beneficiaries.
@@ -19,14 +57,6 @@ Estate planning involves creating a plan for the distribution of your assets aft
 ### Enduring Power of Attorney / Power of Attorney
 
 These legal instruments allow you to appoint someone to make financial or healthcare decisions on your behalf if you become unable to do so. They are crucial for ensuring your interests are protected even if you're incapacitated.
-
-### Personal Injury Matters
-
-In cases of personal injury, our team is dedicated to helping you seek compensation for injuries sustained due to accidents or negligence. We advocate for your rights and fight for fair compensation for medical expenses, pain, suffering and loss of earnings. 
-
-### Family Law
-
-Family law encompasses matters such as divorce, custody, guardianship, access maintenance applications and domestic abuse.  Our family law expertise aims to provide compassionate guidance during emotionally challenging times and ensure that your family's best interests are prioritized.
 
 ### Civil Matters
 
@@ -36,25 +66,9 @@ When disputes arise over contracts, debts, or other civil issues, we provide str
 
 Employment law governs workplace relationships, ensuring fair treatment of employees and employers alike. Our expertise helps resolve employment disputes whilst ensuring compliance with the relevant statutory provisions. 
 
-### Commercial/Company and Business Law
-
-From business formation to contract drafting and negotiations, our business law expertise assists in safeguarding your commercial interests and ensuring your business transactions are legally sound.
-
-### Conveyancing
-
-Conveyancing involves the legal process of transferring property ownership. Our meticulous attention to detail helps ensure a smooth property transfer process.
-
 ### Mortgages and Remortgages
 
 Navigating the complexities of mortgages and remortgages requires legal expertise. We provide guidance to help you understand terms, obligations, and ensure compliance with legal requirements.
-
-### Criminal Law / Road Traffic Offences
-
-Sometimes we make mistakes. When this happens, we are here to help. If you've received a summons or have been charged with an offence, our team is on hand to assist you. We provide robust representation to safeguard your rights and navigate the complexities of criminal law and road traffic offence matters.
-
-### Probate and Estate Administration
-
-When a loved one passes away, our probate services help guide you through the legal process of administering their estate. This involves gathering in their assets, distributing the assets, settling debts and handling any residual tax matters. Our compassionate approach during this challenging time ensures a smooth transition of assets and adherence to legal requirements.
 
 ### Landlord and Tenant
 
