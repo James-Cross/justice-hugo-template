@@ -18,8 +18,8 @@ enableRobotsTXT = true
 
 [params]
   backgroundImagePath = "/uploads/background1.jpg"
-  description = "Hugo template with example content for a law firm."
-  images = ["siteicon.png"]
+  description = "Kenny Stephenson Chapman LLP is a full service law firm in Waterford."
+  images = ["favicon.ico"]
   title = "Kenny Stephenson Chapman"
 
 [params._selectData]
