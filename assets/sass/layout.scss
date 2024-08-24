@@ -409,7 +409,6 @@ footer {
 }
 
 .scroll-up-button {
-  z-index: 100;
   all:unset;
   position: fixed;
   bottom: 25px;
@@ -449,4 +448,9 @@ footer {
 		color: #fefefe;
 		background-color: #F1CE5C;
 	}
+}
+
+.hrule {
+  margin-top: 30px;
+  color: #7c343a;
 }
