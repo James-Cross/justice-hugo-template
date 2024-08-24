@@ -105,7 +105,7 @@ section {
 
 .main {
 	@extend .light-section;
-	font-size: 2.25rem;
+	font-size: 2rem;
 }
 
 .light-section {
@@ -139,12 +139,11 @@ section {
 
 .quote-section {
 	@extend .dark-section;
-	font-size: 3rem;
-	font-style: italic;
+	font-size: 2.5rem;
 	padding: 70px 20px;
 
 	.container {
-		max-width: 600px;
+		max-width: 1000px;
 		text-align: center;
 	}
 }
@@ -405,7 +404,7 @@ footer {
   right: 30px;
   height: 90px;
   width: 90px;
-  background-color: #080808;
+  background-color: #7c343a;
   border-radius: 99%;
   display: flex;
   align-items: center;
@@ -421,4 +420,21 @@ footer {
   transform: rotate(135deg);
   margin-bottom: -14px;
   pointer-events: none;
+}
+
+.contact-btn {
+	padding: 10px 15px;
+	background-color: #7c343a;
+	font-size: 2rem;
+	color: #fefefe;
+	cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+
+	&:hover {
+    box-shadow: 0;
+    transition: 0.2s ease-in-out;
+		color: #fefefe;
+		background-color: #73a9c9;
+	}
 }

@@ -20,7 +20,7 @@ enableRobotsTXT = true
   backgroundImagePath = "/uploads/background1.jpg"
   description = "Hugo template with example content for a law firm."
   images = ["siteicon.png"]
-  title = "Justice Template"
+  title = "Kenny Stephenson Chapman"
 
 [params._selectData]
   call_to_actions = ["Contact", "Map"]

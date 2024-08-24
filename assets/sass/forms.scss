@@ -9,7 +9,7 @@ input,
 textarea {
 	padding: 10px;
 	margin: 10px 0;
-	box-shadow: 1px 1px 5px 0 rgba(100, 100, 100, 0.2);
+	box-shadow: 3px 3px 5px 0 rgba(100, 100, 100, 0.2);
 	border: 0;
 	border-radius: 2px;
 	width: 100%;
@@ -31,12 +31,14 @@ input[type=submit],
 .btn {
 	padding: 10px 15px;
 	margin: 0;
-	background-color: #4489b1;
+	background-color: #7c343a;
 	font-size: 2rem;
 	color: #fefefe;
 	cursor: pointer;
 
 	&:hover {
+    box-shadow: 0;
+    transition: 0.2s ease-in-out;
 		color: #fefefe;
 		background-color: #73a9c9;
 	}

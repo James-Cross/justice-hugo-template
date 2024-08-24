@@ -6,15 +6,19 @@
 			<div class="column">
 				<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
-				<label>Telephone</label>
+				<label>Phone Number</label>
 				<p class="contact-info"><a href="tel:{{ $.Site.Data.company.phone }}">{{ $.Site.Data.company.phone }}</a></p>
-
-				<label>Fax</label>
-				<p class="contact-info"><a href="tel:{{ $.Site.Data.company.phone }}">{{ $.Site.Data.company.fax }}</a></p>
 
 				<label>Email Address</label>
 				<p class="contact-info"><a href="mailto:{{ $.Site.Data.company.contact_email_address }}">{{ $.Site.Data.company.contact_email_address }}</a></p>
 
+				<address class="contact-info">
+					{{ $postal_address_parts := split $.Site.Data.company.postal_address "," }}
+					{{ range $i, $part := $postal_address_parts }}
+						{{ if $i }}<br>{{ end }}
+						{{ $part }}
+					{{ end }}
+				</address>
 				<label>Address</label>
 				<address class="contact-info">
 					{{ $address_parts := split $.Site.Data.company.address "," }}
@@ -26,7 +30,10 @@
 			</div>
 
 			<div class="column">
-				<form name="contact" netlify>
+				<form action="https://api.web3forms.com/submit" method="POST">
+          <!-- replace with correct link -->
+          <input type="hidden" name="redirect" value="https://ksc.ie/thanks.html">
+          <input type="hidden" name="access_key" value="f8c74229-4b3b-4309-a877-d4f7ac42310b">
 					<label for="email_address">Email Address</label>
 					<input id="email_address"type="text" name="email">
 
@@ -39,7 +46,7 @@
 					<input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}">
 					<input type="text" name="_gotcha" style="display: none;">
 
-					<button type="submit">Send</button>
+					<input type="submit" value="Send Message">
 				</form>
 			</div>
 		</div>

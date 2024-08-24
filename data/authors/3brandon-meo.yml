@@ -2,6 +2,7 @@ name: Brandon Meo
 description: 
   Some bullshit about how great brandon is
 image: /uploads/background.jpg
+link: /brandon-meo
 order:
   weight: 5
 credentials: BCL
