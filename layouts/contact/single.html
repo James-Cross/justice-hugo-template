@@ -9,19 +9,21 @@
           <input type="hidden" name="redirect" value="https://ksc-waterford.netlify.app/thanks.html">
           <input type="hidden" name="access_key" value="f8c74229-4b3b-4309-a877-d4f7ac42310b">
 					<label for="email_address">Email Address</label>
-					<input id="email_address"type="text" name="email">
+					<input id="email_address"type="text" name="email" required>
 
 					<label for="name">Name</label>
-					<input id="name" type="text" name="name">
+					<input id="name" type="text" name="name" required>
 
 					<label for="message">Message</label>
-					<textarea id="message" name="message"></textarea>
+					<textarea id="message" name="message" required></textarea>
 
-					<input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}">
+          <!-- un-comment when site is made live -->
+					<!-- <input type="hidden" name="_to" value="{{ $.Site.Data.company.contact_email_address }}"> -->
 					<input type="text" name="_gotcha" style="display: none;">
           <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
 					<input type="submit" value="Send Message">
+          <input type="hidden" name="subject" value="New message via ksc.ie">
 				</form>
 			</div>
 
