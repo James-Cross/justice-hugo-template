@@ -32,8 +32,7 @@ header {
 		// background-position: calc(50% - 300px) calc(100% + 20px);
 
 		&.main-hero {
-			height: 86vh;
-      border-bottom: 3px solid #F1CE5C;
+			height: 60vh;
 
       h1 {
         font-size: 8rem;
@@ -44,7 +43,11 @@ header {
       }
       
       .minor-heading {
-        font-size: 0rem;
+        display: none;
+      }
+
+      .minor-sub-heading {
+        display: none;
       }
 
       .logo {

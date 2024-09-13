@@ -5,6 +5,5 @@ image: /uploads/background.jpg
 link: /brandon-meo
 order:
   weight: 5
-credentials: BCL
-phone_extension: "02"
+credentials: BA
 is_staff_member: true
