@@ -36,10 +36,38 @@ header {
 
       h1 {
         font-size: 8rem;
+        opacity: 0; /* Start hidden */
+        transform: translateY(0px); /* Start position for animation */
+        animation: fadeInUp 1.5s forwards; /* Apply the animation */
       }
+
+      @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 
       .sub-heading {
         font-size: 3rem;
+        opacity: 0; /* Start hidden */
+        transform: translateY(0px); /* Start position for animation */
+        animation: fadeInUp 1.5s forwards; /* Apply the animation */
+
+          @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
       }
       
       .minor-heading {
