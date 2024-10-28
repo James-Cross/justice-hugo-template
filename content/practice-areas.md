@@ -26,7 +26,7 @@ When a loved one passes away, our probate services help guide you through the le
 
 ### Family Law
 
-Family law encompasses matters such as divorce, custody, guardianship, access maintenance applications and domestic abuse.  Our family law expertise aims to provide compassionate guidance during emotionally challenging times and ensure that your family's best interests are prioritized.
+Family law encompasses matters such as divorce, custody, guardianship, access, maintenance applications and domestic abuse. Our family law expertise aims to provide compassionate guidance during emotionally challenging times and ensure that your family’s best interests are prioritised.
 
 ![family image](/uploads/family.jpg)
 

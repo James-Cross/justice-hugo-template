@@ -6,8 +6,12 @@ large_header: false
 
 ![Bio image](https://unsplash.it/350/350?image=946)
 
-Brian is the Managing Partner in the Firm of Kenny Stephenson Chapman and has been practicing as a Solicitor since 1992. Brian is an honours graduate of University College Cork. Brian is a nominated panel solicitor for a number of leading insurance companies namely Travelers Insurance Company and other insurers such as Allianz, Garwyn Liability Adjusters and recently Liberty Insurance Company. As such Brian deals with all manner of Court Disputes and has extensive knowledge of same.
+Brandon graduated with First Class Honours in his Bachelor of Arts Degree. Following his studies, he completed his two-year apprenticeship with Kenny Stephenson Chapman, where he gained hands-on experience across various legal disciplines before qualifying as a solicitor in 2024.
 
-Brian has handled a full range of cases in all Courts, in all manner of cases for both private, public and institutional clients over the last twenty three years.
+
+Brandon brings a well-rounded approach to our practice, working in all areas of law with particular focus on conveyancing. His meticulous attention to detail and thorough understanding of property law ensures our clients receive clear and practical advice throughout their transactions, from property purchases and sales to more complex property transactions.
+
+
+In addition to his conveyancing work, Brandon represents our clients in court, providing skilled advocacy in a range of cases. Whether assisting clients with civil matters or representing them in family or criminal cases, Brandon is committed to delivering personalized, results-driven legal solutions.
 
 
