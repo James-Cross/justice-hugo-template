@@ -33,6 +33,10 @@ header {
 		// background-size: contain;
 		// background-position: calc(50% - 300px) calc(100% + 20px);
 
+    header {
+      background-repeat: no-repeat;
+    }
+
 		&.main-hero {
 			height: 60vh;
 
@@ -110,7 +114,6 @@ header {
 header {
   a {
 		color: #fff;
-    background-repeat: repeat;
 
 		&.active {
 			border-bottom: 2px solid;
