@@ -18,24 +18,23 @@ body {
 
 header {
 	// background-size: cover;
-	// background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	// background-position: calc(50% - 40px) 175px;
 	// height: 420px;
 	// box-sizing: border-box;
-  background-repeat: no-repeat;
 
 
 	.container {
 		text-align: center;
 	}
 
+  @media (max-width: $mobile-break) {
+    background-repeat: repeat;
+  }
+
 	@media (min-width: $mobile-break) {
 		// background-size: contain;
 		// background-position: calc(50% - 300px) calc(100% + 20px);
-
-    header {
-      background-repeat: no-repeat;
-    }
 
 		&.main-hero {
 			height: 60vh;
