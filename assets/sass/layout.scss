@@ -22,6 +22,8 @@ header {
 	// background-position: calc(50% - 40px) 175px;
 	// height: 420px;
 	// box-sizing: border-box;
+  background-repeat: no-repeat;
+
 
 	.container {
 		text-align: center;
@@ -108,6 +110,7 @@ header {
 header {
   a {
 		color: #fff;
+    background-repeat: repeat;
 
 		&.active {
 			border-bottom: 2px solid;
