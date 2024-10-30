@@ -4,7 +4,7 @@ call_to_action: Contact
 large_header: false
 ---
 
-![Bio image](https://unsplash.it/350/350?image=946)
+![Bio image](/uploads/brandonsm.jpg)
 
 Brandon graduated with First Class Honours in his Bachelor of Arts Degree. Following his studies, he completed his two-year apprenticeship with Kenny Stephenson Chapman, where he gained hands-on experience across various legal disciplines before qualifying as a solicitor in 2024.
 
