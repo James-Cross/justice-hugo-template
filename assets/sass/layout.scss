@@ -164,6 +164,7 @@ section {
 .dark-section {
 	background-color: #31354f;
 	color: #c1c1c1;
+  box-shadow: inset 0px 15px 15px -15px rgba(0, 0, 0, 0.5);
 
 	a {
 		color: #efefef;
@@ -187,7 +188,6 @@ section {
 	@extend .dark-section;
 	font-size: 2.5rem;
 	padding: 70px 20px;
-  box-shadow: inset 5px 5px 5px 5px #282828;
 
 	.container {
 		max-width: 1000px;
