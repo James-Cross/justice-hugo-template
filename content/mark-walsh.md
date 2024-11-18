@@ -12,7 +12,7 @@ Mark has extensive experience in appearing for both employees and employers in e
 
 Mark is a member of Amnesty International and the Irish Centre of European Affairs.   He previously lectured in W.I.T for the Institute of Marketing in Ireland, the Irish Professional Auctioneers & Valuers Institute and the Irish Management Institute.
 
-Mark has handled a full range of cases in all Courts, in all manner of cases for both private, public and institutional clients over the last eleven years.
+Mark has handled a full range of cases in all Courts, in all manner of cases for both private, public and institutional clients over the last twenty one years.
 
 
 
